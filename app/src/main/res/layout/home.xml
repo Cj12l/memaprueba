@@ -4,10 +4,24 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/fondo"
+        android:layout_width="423dp"
+        android:layout_height="562dp"
+        android:id="@+id/fondoapp"
         android:src="@drawable/Fondo"
         android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="97dp"
+        android:id="@+id/txtjugar"
+        android:src="@drawable/txtJugar"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:id="@+id/logo"
+        android:src="@drawable/Memapp"
+        android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>
