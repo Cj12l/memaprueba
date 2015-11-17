@@ -7,7 +7,7 @@
         android:layout_width="423dp"
         android:layout_height="562dp"
         android:id="@+id/fondoapp"
-        android:src="@drawable/fondo"
+        android:src="@drawable/fondopantalla"
         android:layout_gravity="center" />
 
     <ImageView
