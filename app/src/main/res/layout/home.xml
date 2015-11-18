@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopantalla">
 
-    <ImageView
-        android:layout_width="423dp"
-        android:layout_height="562dp"
-        android:id="@+id/fondoapp"
-        android:src="@drawable/fondopantalla"
-        android:layout_gravity="center" />
-
-    <ImageView
-        android:layout_width="194dp"
-        android:layout_height="97dp"
-        android:id="@+id/txtjugar"
-        android:src="@drawable/txtjugar"
-        android:layout_gravity="center" />
 
     <ImageView
         android:layout_width="149dp"
@@ -23,5 +11,12 @@
         android:id="@+id/logo"
         android:src="@drawable/logomem"
         android:layout_gravity="center_horizontal|top" />
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="97dp"
+        android:id="@+id/txtjugar"
+        android:src="@drawable/txtjugar"
+        android:layout_gravity="center_horizontal|bottom" />
 
 </FrameLayout>
