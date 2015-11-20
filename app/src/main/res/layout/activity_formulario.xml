@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="innovasoft.memaprueba.FormularioActivity"
+    android:background="#FFFF">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFF">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="53dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logomem"
+            android:background="@android:color/transparent"
+            android:layout_gravity="top|bottom|center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="256dp"
+            android:layout_height="306dp"
+            android:layout_gravity="center"
+            android:background="#b3e0e3"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre"
+                android:text="Nombre completo"
+                android:textColor="#727171"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/numid"
+                android:text="Número de identificación"
+                android:textColor="#727171"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#b3e0e3">
+
+                <EditText
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fecha"
+                    android:text="Fecha de nacimiento"
+                    android:textColor="#727171"
+                    android:editable="false"/>
+
+                <ImageButton
+                    android:layout_width="26dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/setfecha"
+                    android:src="@drawable/btncalendario"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical" />
+
+
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:id="@+id/diasem"
+                android:background="@android:color/transparent"
+                android:spinnerMode="dialog"
+                android:layout_weight="0.19" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:id="@+id/mes"
+                android:background="#b3e0e3"
+                android:backgroundTint="#b3e0e3"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dialog"
+                android:layout_weight="0.28" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:id="@+id/diaact"
+                android:background="#b3e0e3"
+                android:backgroundTint="#b3e0e3"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dialog"
+                android:layout_weight="0.26" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:id="@+id/iniciar"
+            android:src="@drawable/btniniciar"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_horizontal|bottom" />
+
+    </FrameLayout>
+</RelativeLayout>
