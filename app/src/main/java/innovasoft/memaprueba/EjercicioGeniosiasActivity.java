@@ -1,38 +1,23 @@
 package innovasoft.memaprueba;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
 
-    ImageButton empezar;
+public class EjercicioGeniosiasActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        empezar=(ImageButton)findViewById(R.id.empezar);
-        empezar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent next=new Intent(MainActivity.this,FormularioActivity.class);
-                startActivity(next);
-                finish();
-            }
-        });
-
+        setContentView(R.layout.activity_ejercicio_geniosias);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_ejercicio_geniosias, menu);
         return true;
     }
 

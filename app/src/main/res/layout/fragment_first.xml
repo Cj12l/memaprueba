@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" tools:context="ufo.slideapp2.FirstFragment"
+    android:id="@+id/fondo" android:background="#FFFF">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="47dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="left|top"
+            android:src="@drawable/logomem"/>
+
+        <FrameLayout
+            android:layout_width="322dp"
+            android:layout_height="286dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btngenosias"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/genosias"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="173dp"
+                android:layout_height="148dp"
+                android:layout_gravity="left|bottom"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="24dp"
+                    android:layout_height="135dp"
+                    android:layout_weight="0.09"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnsemantica"
+                    android:layout_gravity="left|bottom"
+                    android:src="@drawable/memsemantica"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnepisodica"
+                    android:layout_gravity="right|bottom"
+                    android:src="@drawable/memepisodica"
+                    android:background="@android:color/transparent"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"></LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+</RelativeLayout>

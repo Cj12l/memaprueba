@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#b3e0e3"
+    android:gravity="top">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_weight="0.11"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="237dp"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="39dp"
+            android:id="@+id/texto_spinner"
+            android:text="hola mundo"
+            android:textSize="16dp"
+            android:textColor="#727171"
+            android:layout_weight="0.86" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"></LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            android:src="@drawable/spinner_triangle" />
+    </LinearLayout>
+
+</LinearLayout>
