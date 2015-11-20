@@ -15,8 +15,8 @@
     <ImageView
         android:layout_width="194dp"
         android:layout_height="97dp"
-        android:id="@+id/txtjugar"
-        android:src="@drawable/txtjugar"
+        android:id="@+id/buthjugar"
+        android:src="@drawable/butjugar"
         android:layout_gravity="center_horizontal|bottom" />
 
 </FrameLayout>
