@@ -68,4 +68,33 @@
     </string-array>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_activity_ejercicio_geniosias">EjercicioGeniosiasActivity</string>
+    <string name="title_activity_memsemantica_ejercicio">MemsemanticaEjercicioActivity</string>
+    <string name="title_activity_memepisodica_texto">MemepisodicaTextoActivity</string>
+    <string name="title_activity_memepisodica_ejercicio">MemepisodicaEjercicioActivity</string>
+
+    <string-array name="colores">
+        <item >Elija un color</item>
+        <item >Amarillo</item>
+        <item >Rojo</item>
+        <item >Naranja</item>
+        <item >Verde</item>
+        <item >Cafe</item>
+        <item >Azul</item>
+        <item >Blanco</item>
+        <item >Violeta</item>
+        <item >Negro</item>
+    </string-array>
+
+    <string name="textoMemEpiEj1">HISTORIA 1:\n
+        Antonio Rodríguez salía de su casa todas
+        las mañanas para ir a trabajar.
+        El martes, Antonio debía llegar antes a
+        su empresa para acudir a la reunión
+        de trabajadores.
+        Sin embargo, el lunes por la noche olvidó
+        cambiar el despertador y se quedó
+        dormido a la mañana siguiente.
+        Cuando llegó a la empresa,
+        la reunión ya había terminado.</string>
+
 </resources>
